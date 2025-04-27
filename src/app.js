@@ -42,27 +42,46 @@ class PersonalityQuiz {
   calculateResult() {
     let hollandCount = { R: 0, I: 0, A: 0, S: 0, E: 0, C: 0 };
     let mbtiCount = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
-
+  
+    // ✅ Define correctedType inside calculateResult
+    const correctedType = (type) => {
+      const knownTypes = ["RI", "RA", "RS", "RE", "RC", "IA", "IS", "IE", "IC", "AS", "AE", "AC", "SE", "SC", "EC"];
+      
+      if (knownTypes.includes(type)) {
+        return type;
+      } else if (knownTypes.includes(type[1] + type[0])) {
+        return type[1] + type[0];
+      } else {
+        return type; // fallback
+      }
+    };
+  
+    // ✅ Count answers
     this.answers.forEach((ans, index) => {
       if (index < 3) hollandCount[ans]++;
       else mbtiCount[ans]++;
     });
-
+  
+    // ✅ Generate Holland Profile and correct it
     const hollandProfile = Object.entries(hollandCount)
       .sort((a, b) => b[1] - a[1])
       .slice(0, 2)
       .map(([key]) => key)
       .join('');
-
+  
+    const correctedHollandProfile = correctedType(hollandProfile);
+  
+    // ✅ Generate MBTI Profile
     const mbtiProfile = [
       mbtiCount.E >= mbtiCount.I ? 'E' : 'I',
       mbtiCount.S >= mbtiCount.N ? 'S' : 'N',
       mbtiCount.T >= mbtiCount.F ? 'T' : 'F',
       mbtiCount.J >= mbtiCount.P ? 'J' : 'P',
     ].join('');
-
-    return { hollandProfile, mbtiProfile, hollandCount, mbtiCount };
-  }
+  
+    // ✅ Return
+    return { hollandProfile: correctedHollandProfile, mbtiProfile, hollandCount, mbtiCount };
+  }  
 
   createProgressBar() {
     const progressContainer = document.createElement('div');
