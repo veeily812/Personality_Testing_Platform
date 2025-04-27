@@ -39,6 +39,23 @@ export const personalityDescriptions = {
     description: "You are efficient, realistic, and structured. You enjoy tasks where you can apply practical solutions in an organized setting.",
     careers: ["Accounting", "Database Management", "Construction Supervision", "Supply Chain Management", "Law Enforcement"]
   },
+  RA: {
+  summary: "Hands-on Creator.",
+  description: "You are a practical and creative individual who enjoys building, crafting, and innovating with real-world materials. You thrive in environments that combine technical skills with artistic expression.",
+  careers: ["Industrial Design", "Architecture", "Carpentry", "Fashion Technology", "Interior Design"]
+},
+  CI: {
+    summary: "Analytical Organizer.",
+    description: "You enjoy working with structured information and logical systems. You thrive when you can organize data, streamline operations, and solve systematic problems with precision and accuracy.",
+    careers: [
+      "Data Analyst",
+      "Database Administrator",
+      "Logistics Manager",
+      "Compliance Specialist",
+      "Financial Auditor"
+    ]
+  },  
+
 };
 
 export const mbtiDescriptions = {
@@ -106,15 +123,5 @@ export const mbtiDescriptions = {
     nickname: "The Executive",
     description: "You are organized, assertive, and a natural administrator. You thrive in management, governance, logistics, and law enforcement."
   },
-  CI: {
-    summary: "Analytical Organizer.",
-    description: "You enjoy working with structured information and logical systems. You thrive when you can organize data, streamline operations, and solve systematic problems with precision and accuracy.",
-    careers: [
-      "Data Analyst",
-      "Database Administrator",
-      "Logistics Manager",
-      "Compliance Specialist",
-      "Financial Auditor"
-    ]
-  },  
+  
 }; 
