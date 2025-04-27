@@ -1,61 +1,79 @@
 export const personalityDescriptions = {
   RI: {
-    summary: "Hands-on Builder and Deep Thinker.",
-    description: "You enjoy building real-world solutions while understanding systems deeply. You thrive in careers combining technology and meaningful human impact.",
-    careers: ["Engineering", "Scientific Research", "Biomedical Innovation", "Data Science", "Architecture"]
-  },
-  IA: {
-    summary: "Curious Innovator.",
-    description: "You love exploring complex ideas and expressing them creatively. You're driven by curiosity and innovation across fields like tech, design, or research.",
-    careers: ["UX Design", "Software Development", "Creative Tech", "Scientific Writing", "Game Design"]
-  },
-  SA: {
-    summary: "Creative Helper.",
-    description: "You combine creativity with a desire to improve people's lives. You thrive in fields where art, communication, and human connection meet.",
-    careers: ["Art Therapy", "Graphic Design", "Teaching Arts", "Public Relations", "Counseling"]
-  },
-  SE: {
-    summary: "Energetic Leader.",
-    description: "You are a charismatic motivator who loves organizing people for meaningful causes. You thrive where action, communication, and leadership intersect.",
-    careers: ["Entrepreneurship", "Sales Management", "Public Speaking", "Politics", "Event Management"]
-  },
-  CE: {
-    summary: "Structured Leader.",
-    description: "You enjoy managing systems, resources, and people in an organized way. You excel at leadership roles where efficiency and structure matter.",
-    careers: ["Business Management", "Finance", "Operations", "Real Estate", "Supply Chain"]
-  },
-  CR: {
-    summary: "Systematic Technician.",
-    description: "You prefer hands-on technical work within a structured environment. You thrive when building, fixing, or maintaining organized systems.",
-    careers: ["Mechanical Engineering", "Network Administration", "Manufacturing", "Aviation", "Logistics"]
-  },
-  IS: {
-    summary: "Investigative Helper.",
-    description: "You love understanding complex systems and using that knowledge to help others. Research, counseling, and problem-solving drive you.",
-    careers: ["Clinical Psychology", "Medical Research", "Data Analysis", "Cognitive Science", "Education"]
-  },
-  RC: {
-    summary: "Practical Organizer.",
-    description: "You are efficient, realistic, and structured. You enjoy tasks where you can apply practical solutions in an organized setting.",
-    careers: ["Accounting", "Database Management", "Construction Supervision", "Supply Chain Management", "Law Enforcement"]
+    summary: "Practical Investigator",
+    description: "You enjoy solving real-world problems through hands-on experimentation and critical analysis. You thrive when you can combine practical skills with deep understanding.",
+    careers: ["Engineering", "Technical Research", "Product Development", "Scientific Instrumentation", "Mechanical Design"]
   },
   RA: {
-  summary: "Hands-on Creator.",
-  description: "You are a practical and creative individual who enjoys building, crafting, and innovating with real-world materials. You thrive in environments that combine technical skills with artistic expression.",
-  careers: ["Industrial Design", "Architecture", "Carpentry", "Fashion Technology", "Interior Design"]
-},
-  CI: {
-    summary: "Analytical Organizer.",
-    description: "You enjoy working with structured information and logical systems. You thrive when you can organize data, streamline operations, and solve systematic problems with precision and accuracy.",
-    careers: [
-      "Data Analyst",
-      "Database Administrator",
-      "Logistics Manager",
-      "Compliance Specialist",
-      "Financial Auditor"
-    ]
-  },  
-
+    summary: "Creative Builder",
+    description: "You blend technical skill with creative expression. You enjoy building, crafting, and designing tangible solutions that are both functional and aesthetic.",
+    careers: ["Industrial Design", "Architecture", "Carpentry", "Landscape Architecture", "Fashion Technology"]
+  },
+  RS: {
+    summary: "Helpful Technician",
+    description: "You love helping others through hands-on activities. You thrive in environments where practical assistance directly impacts people’s lives.",
+    careers: ["Physical Therapy", "Emergency Medical Services", "Rehabilitation Support", "Coaching", "Healthcare Technician"]
+  },
+  RE: {
+    summary: "Persuasive Engineer",
+    description: "You enjoy influencing others through technical expertise. You are a persuasive communicator who thrives when using hands-on knowledge to lead projects or sell ideas.",
+    careers: ["Technical Sales", "Entrepreneurship", "Operations Management", "Project Consulting", "Industrial Marketing"]
+  },
+  RC: {
+    summary: "Efficient Organizer",
+    description: "You are a structured, practical person who enjoys managing resources and maintaining systems. You excel at bringing order and efficiency to physical or logistical tasks.",
+    careers: ["Construction Management", "Facilities Supervision", "Manufacturing Logistics", "Property Management", "Supply Chain Coordination"]
+  },
+  IA: {
+    summary: "Innovative Analyst",
+    description: "You combine curiosity with creativity. You love to explore complex ideas and express them through innovative solutions, blending research and artistry.",
+    careers: ["UX Research", "Scientific Visualization", "Technical Writing", "Innovation Consulting", "Experimental Design"]
+  },
+  IS: {
+    summary: "Supportive Investigator",
+    description: "You enjoy using research and analytical skills to help and support others. You are driven to solve human problems with thoughtful, evidence-based methods.",
+    careers: ["Clinical Psychology", "Social Research", "Educational Counseling", "Human Factors Analysis", "Medical Diagnostics"]
+  },
+  IE: {
+    summary: "Analytical Leader",
+    description: "You excel at combining deep analysis with leadership and persuasion. You are driven to research complex topics, make evidence-based decisions, and inspire others through rational argument and strategic thinking.",
+    careers: ["Management Consulting", "Strategic Planning", "Business Intelligence", "Scientific Policy Making", "Research Leadership"]
+  },
+  IC: {
+    summary: "Precise Analyst",
+    description: "You are detail-oriented and methodical, thriving in environments where accuracy, organization, and systematic analysis are crucial.",
+    careers: ["Data Science", "Library Sciences", "Accounting Research", "Database Management", "Laboratory Management"]
+  },
+  AS: {
+    summary: "Empathetic Creator",
+    description: "You combine artistic expression with a deep sense of social responsibility. You enjoy creating work that inspires, heals, or uplifts others.",
+    careers: ["Art Therapy", "Creative Writing", "Public Speaking", "Teaching Arts", "Community Arts Programs"]
+  },
+  AE: {
+    summary: "Visionary Communicator",
+    description: "You use creativity to persuade, inspire, and lead others. You thrive in roles that involve storytelling, visual communication, and idea promotion.",
+    careers: ["Marketing", "Advertising Design", "Brand Strategy", "Public Relations", "Content Creation"]
+  },
+  AC: {
+    summary: "Structured Artist",
+    description: "You are both creative and organized. You thrive when artistic talents are applied within structured systems or institutions.",
+    careers: ["Graphic Design", "Museum Curation", "Publishing", "Instructional Design", "Architectural Drafting"]
+  },
+  SE: {
+    summary: "Inspirational Leader",
+    description: "You are naturally social and persuasive. You thrive in motivating teams, organizing community projects, and leading human-centered initiatives.",
+    careers: ["Community Leadership", "Social Entrepreneurship", "Event Management", "Educational Administration", "Political Campaigns"]
+  },
+  SC: {
+    summary: "Caring Organizer",
+    description: "You blend social awareness with organizational skills. You excel at supporting communities or institutions through structured and empathetic systems.",
+    careers: ["School Counseling", "Healthcare Administration", "Nonprofit Management", "Human Resources", "Academic Advising"]
+  },
+  EC: {
+    summary: "Strategic Administrator",
+    description: "You are a persuasive and structured professional who enjoys managing operations, leading projects, and driving organized success through efficient systems.",
+    careers: ["Business Administration", "Sales Management", "Event Planning", "Project Coordination", "Corporate Operations"]
+  },
 };
 
 export const mbtiDescriptions = {
